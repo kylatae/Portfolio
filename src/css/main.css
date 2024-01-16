@@ -46,6 +46,7 @@
   background-image: url("./img/disk/insert_disk.png");
   background-repeat:no-repeat;
   background-size: contain;
+  z-index: 10;
 }
 
 .diskette{
