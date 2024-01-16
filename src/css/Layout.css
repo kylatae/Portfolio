@@ -1,0 +1,38 @@
+:root {
+  --hoverBackground: url('');
+}
+
+body { 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  background: #240349; 
+  background-image: var(--hoverBackground);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 50px;
+  background-size: 100vh;
+  background-color: white;
+} 
+.topBar {
+  position: "absolute";
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+
+  left: 0px;
+  top: 0px;
+  width: 600px;
+  color:beige;
+}
+
+.mainScreen {
+  position: "absolute";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: 0px;
+  margin-top: 100px;
+}

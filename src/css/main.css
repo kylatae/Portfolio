@@ -1,0 +1,65 @@
+.bottom_bezel{
+  background-color:black;
+  position:absolute;
+  left:0;
+  top: 90vh;
+  height:10vh;
+  width:95vw;
+}
+
+.top_bezel{
+  background-color:black;
+  position:absolute;
+  left:0;
+  top: 0;
+  height:10vh;
+  width:95vw;
+}
+
+.left_bezel{
+  background-color:black;
+  position:absolute;
+  left:0;
+  top: 0;
+  height:100vh;
+  width:10vw;
+}
+
+.right_bezel{
+  background-color:black;
+  position:absolute;
+  left:90vw;
+  top: 0;
+  height:100vh;
+  width:10vw;
+}
+
+.disk_container{
+  padding-top:10vh;
+}
+
+.disk_drive{
+  position:absolute;
+  left:70vw;
+  height:8vh;
+  width:20vw;
+  background-image: url("./img/disk/insert_disk.png");
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+
+.diskette{
+  width: 6vw;
+  height: 6vw;
+}
+
+.diskette:hover{
+  width: 8vw;
+  height: 8vw;
+}
+
+body{
+  padding-top: 10vh;
+  padding-left: 10vw;
+}
+
