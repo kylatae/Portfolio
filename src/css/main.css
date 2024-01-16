@@ -43,7 +43,7 @@
   left:70vw;
   height:8vh;
   width:20vw;
-  background-image: url("./img/disk/insert_disk.png");
+  background-image: url("/img/disk/insert_disk.png");
   background-repeat:no-repeat;
   background-size: contain;
   z-index: 10;
