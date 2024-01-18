@@ -2,6 +2,8 @@ import React, { useRef, useState} from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Poker from './components/Poker'
 import Cube from './components/Cube'
+import MathGame from './components/MathGame'
+import MathGame2 from './components/MathGame2'
 import Diskette from './components/Diskette'
 
 
@@ -30,6 +32,9 @@ function App() {
         <div className={'disk_container'}>
           <Diskette src="./img/disk/videopokerDiskette.png" pageToLoad="./Poker" onDragStart={handleDragStart} />
           <Diskette src="./img/disk/cubeDiskette.png" pageToLoad="./Cube" onDragStart={handleDragStart} />  
+          <Diskette src="./img/disk/cubeDiskette.png" pageToLoad="./MathGame" onDragStart={handleDragStart} />  
+          <Diskette src="./img/disk/cubeDiskette.png" pageToLoad="./MathGame2" onDragStart={handleDragStart} />  
+          
         </div>
       </div>
 
@@ -42,6 +47,9 @@ function App() {
         <Routes>
           <Route path="/poker" element={<Poker />} />   
           <Route path="/cube" element={<Cube />} />   
+          <Route path="/MathGame" element={<MathGame />} />   
+          <Route path="/MathGame2" element={<MathGame2 />} />   
+          
                 
         </Routes>
       </BrowserRouter>

@@ -1,0 +1,17 @@
+.math-game {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 80px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
