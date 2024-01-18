@@ -2,6 +2,8 @@ import React, { useRef, useState} from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Poker from './components/Poker'
 import Cube from './components/Cube'
+import GeneticSimilarityMatrix from './components/GeneticSimilarityMatrix'
+import AnimalMatrix from './components/AnimalMatrix'
 import Diskette from './components/Diskette'
 
 
@@ -30,6 +32,9 @@ function App() {
         <div className={'disk_container'}>
           <Diskette src="./img/disk/videopokerDiskette.png" pageToLoad="./Poker" onDragStart={handleDragStart} />
           <Diskette src="./img/disk/cubeDiskette.png" pageToLoad="./Cube" onDragStart={handleDragStart} />  
+          <Diskette src="./img/disk/cubeDiskette.png" pageToLoad="./GeneticSimilarityMatrix" onDragStart={handleDragStart} />  
+          <Diskette src="./img/disk/cubeDiskette.png" pageToLoad="./AnimalMatrix" onDragStart={handleDragStart} />  
+          
         </div>
       </div>
 
@@ -41,7 +46,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/poker" element={<Poker />} />   
-          <Route path="/cube" element={<Cube />} />   
+          <Route path="/cube" element={<Cube />} />  
+          <Route path="/GeneticSimilarityMatrix" element={<GeneticSimilarityMatrix />} />  
+          <Route path="/AnimalMatrix" element={<AnimalMatrix />} />  
                 
         </Routes>
       </BrowserRouter>
