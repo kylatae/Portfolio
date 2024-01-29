@@ -1,0 +1,19 @@
+.bot-battle-container {
+  background-color: #111; 
+  color: #00ffcc; /* Cyberpunk-ish color */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.bot-button {
+  background-color: #333;
+  color: #00ffcc;
+  border: 2px solid #00ffcc;
+  margin: 5px;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.start-battle-button {
+  /* More styling for a cool-looking button */
+}
