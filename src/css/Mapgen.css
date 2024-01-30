@@ -1,0 +1,12 @@
+.map-container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, 20px); Adjust column count based on grid size */
+}
+
+.row {
+  display: flex;
+}
+
+.tile {
+  box-sizing: border-box;
+}
