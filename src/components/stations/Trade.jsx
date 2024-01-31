@@ -10,7 +10,7 @@ function Trade({ resources, setResources }) {
         wood: Math.floor(Math.random() * (200 - 50 + 1)) + 50,
         stone: Math.floor(Math.random() * (500 - 300 + 1)) + 300,
       }));
-    }, 50000); // Update every 50 seconds
+    }, 5000); // Update every 5 seconds
 
     return () => clearInterval(intervalId);
   }, []);
