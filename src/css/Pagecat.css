@@ -1,0 +1,79 @@
+.pagecat-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #f5f0e5;
+  padding: 20px;
+}
+
+.introduction {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.introduction h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.introduction form {
+  margin-top: 20px;
+}
+
+.introduction input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.introduction button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.need-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.need-item label {
+  margin-bottom: 5px;
+}
+
+.status-bar-container {
+  border: 1px solid #ccc; 
+  background-color: #000000;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.status-bar {
+  height: 2vh;
+  background-color: #66e47b;
+  border-radius: 5px;
+  border: 2px solid #000000; /* Add a border around the status bar */
+  /* Add color based on need level later */
+}
+
+.needs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.catpic {
+  height: 20vh;
+  width: 20vh;
+}
