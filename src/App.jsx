@@ -3,6 +3,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Poker from './components/Poker'
 import Cube from './components/Cube'
 import Resourcerer from './components/Resourcerer'
+import GoblinWars from './components/GoblinWars'
+import GoblinWars2 from './components/GoblinWars2'
 import Diskette from './components/Diskette'
 
 
@@ -32,6 +34,8 @@ function App() {
           <Diskette src="./img/disk/videopokerDiskette.png" pageToLoad="./Poker" onDragStart={handleDragStart} />
           <Diskette src="./img/disk/cubeDiskette.png" pageToLoad="./Cube" onDragStart={handleDragStart} />  
           <Diskette src="./img/disk/resourcererDiskette.png" pageToLoad="./Resourcerer" onDragStart={handleDragStart} />  
+          <Diskette src="./img/disk/resourcererDiskette.png" pageToLoad="./GoblinWars" onDragStart={handleDragStart} />  
+          <Diskette src="./img/disk/resourcererDiskette.png" pageToLoad="./GoblinWars2" onDragStart={handleDragStart} />  
         </div>
       </div>
 
@@ -45,6 +49,8 @@ function App() {
           <Route path="/poker" element={<Poker />} />   
           <Route path="/cube" element={<Cube />} />   
           <Route path="/Resourcerer" element={<Resourcerer />} />   
+          <Route path="/GoblinWars" element={<GoblinWars />} />   
+          <Route path="/GoblinWars2" element={<GoblinWars2 />} />   
                 
         </Routes>
       </BrowserRouter>

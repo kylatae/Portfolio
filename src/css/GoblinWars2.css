@@ -1,0 +1,47 @@
+.game-container {
+  width: 70vh; /* 70% of viewport width */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.stats-board {
+  /* Styles for your stats board */
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  border: 1px solid black; /* Optional for visual aid */
+}
+
+.board-row {
+  display: grid; 
+  width:100%;
+  height:7vh;
+
+}
+
+.board-cell {
+  width: 7vh; 
+  height: 7vh; 
+  border: 1px solid lightgray; /* Optional for visual aid */
+}
+
+.goblin-king {
+  /* Styles for your Goblin King piece (size, color, etc.) */
+  width: 100%; /* Fill the cell */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goblin-king.player {
+  background-color: purple;
+}
+
+.goblin-king.AI {
+  background-color: green;
+}
