@@ -7,11 +7,11 @@ function Pagecat() {
   const initialCatStats = {
     name: '',
     coins: 0,
-    hunger: 100,
-    thirst: 100,
+    hunger: 80,
+    thirst: 80,
     litterbox: 100,
-    sleep: 100,
-    affection: 100,
+    sleep: 90,
+    affection: 50,
     adoptionDate: null,
   };
 
